@@ -33,7 +33,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓更新処理ここから
 		///
 		sceneMag->Update(keys,preKeys);
-		sceneMag->Draw();
 		///
 		/// ↑更新処理ここまで
 		///
@@ -41,7 +40,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
-
+		sceneMag->Draw();
 		///
 		/// ↑描画処理ここまで
 		///
